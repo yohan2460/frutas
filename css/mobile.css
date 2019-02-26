@@ -1,0 +1,13 @@
+@media (max-width: 600px){
+    body{
+        background-color: aqua;
+    }
+    .fruit_container{
+        display: block;
+        margin:57px 0px 0 90px; 
+    }
+    .menciones_container{
+        display: block;
+        margin:57px 0px 0 90px;
+    }
+}    dd
