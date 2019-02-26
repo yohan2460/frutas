@@ -1,0 +1,42 @@
+
+.fadeIn{   
+    -webkit-animation-duration:  4s;
+      /*animation-duration: 4s: vamos a saber cuanto dura la animacion  */
+   -webkit-animation-fill-mode: both;  /* -webkit-animation-fill-mode: both; con esto aseguramos que se va cumplir la regla o los keyframes de uda como de regreso */
+    -webkit-animation-name: fadeIn;
+         /* animation-name: name  hay podemos ponerle el nombre a la ani macion*/
+
+     /* ya que para la animacion que vamos hacer se requieren dos cosas una es esto y la otra son los keyfremes */
+}
+
+@keyframes fadeIn{   /*con este conectamos a la clase con el keyframes*/
+  from{
+     opacity: 0; 
+  }
+  to{
+      opacity: 1;
+  }
+
+}
+
+.fedeInDown{
+    -webkit-animation-duration:  1s;
+    animation-duration:  1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fedeInDonw;
+    animation-name: fedeInDonw;
+}
+
+@keyframes fedeInDown{
+     from{
+     opacity: 0;
+     -webkit-transform: translate3d(0 , -100% , 0);
+     transform: translate3d(0 , -100% , 0);
+     }
+     to{
+    opacity: 1;
+    -webkit-transform: translate3d(0 , 0 , 0);
+    transform: translate3d(0 , 0 , 0);
+    }
+}   
