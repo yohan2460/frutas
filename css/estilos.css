@@ -41,7 +41,9 @@ nav li a{
 nav li a:hover{
   color: var(--white-color);
 }
-
+label{
+  font-size: 12px;
+}
 /* ------------------------ Main section */
 
 .main_section{
@@ -158,4 +160,40 @@ footer{
 .texto{
   color: white;
   margin: 0px 12px 0 12px;
+}
+/* --------------------modulo de venta */
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow:  0 0 1px #c1bcbc;
+  border:  1px solid#313337;
+  padding: 10px;
+}
+.modulo_pago_imagenes{
+  max-width: 150px;
+  margin: auto;
+  width: 100%;
+}
+.data{
+  margin-top: 10px;
+  height: 35px;
+  width: 100%;
+  box-sizing: border-box; /* es para que tome de refencia el padding y el margin*/
+  border-radius: 2px;
+  border: 0px;
+  background-color: antiquewhite;
+}
+.data_butmit{
+  margin-top: 10px;
+  height: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: var(--green-color);
+  font-size: 20px;
+  font-weight: 900;
+}
+.main_btn_1{
+  background-color:var(--green-color);
+  color: var(--white-color);
+  border: 1px solid  0 0 1px #c1bcbc;
 }
